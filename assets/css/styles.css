@@ -1,0 +1,22 @@
+/*
+Agregando estilos:
+1. Posicionamiento --> static, absolute, relative, fixed.
+2. Modelo de caja (Box model) --> margin, border, padding, content.
+3. Tipografía --> tipos, tamaños de fuente, etc.
+4. Estilos visuales --> box-shadow, border-radius, gradient, etc.
+5. Otros --> reglas CSS y más.
+*/
+:root {
+  --font-cormorant: "Cormorant", serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: var(--font-cormorant);
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
