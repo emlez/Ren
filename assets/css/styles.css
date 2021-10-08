@@ -7,7 +7,17 @@ Agregando estilos:
 5. Otros --> reglas CSS y más.
 */
 :root {
-  --font-cormorant: "Cormorant", serif;
+  font-family: "Cormorant", serif;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --transition-speed: 600ms;
+  --vulcan: #131521;
+  --portage: #859fff;
+  --free-blue: #435ab5;
+  --cerulan: #00aed0;
+  --white: #ffffff;
 }
 * {
   box-sizing: border-box;
@@ -19,4 +29,55 @@ html {
   font-family: var(--font-cormorant);
   min-width: 320px;
   scroll-behavior: smooth;
+}
+body {
+  font-size: 1.6rem;
+}
+.center {
+  display: flex;
+  align-items: center;
+}
+.header {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 5rem;
+  justify-content: center;
+  background-color: var(--free-blue);
+  font-size: 1.6rem;
+  color: var(--text-secondary);
+}
+.navbar {
+  width: 80vw;
+  justify-content: flex-end;
+  height: 10vh;
+}
+.navbar .navbar-links {
+  display: none;
+  list-style: none;
+  text-decoration: none;
+}
+.navbar button {
+  border: none;
+  background-color: transparent;
+  padding-left: 1rem;
+  font-size: 1.6rem;
+  color: var(--text-secondary);
+}
+
+#main {
+  height: 90vh;
+  width: 90vw;
+  margin: 2rem;
+}
+
+/* === Footer === */
+footer {
+  justify-content: space-evenly;
+  color: var(--vulcan);
+}
+
+footer .social {
+  width: 8rem;
+  justify-content: space-evenly;
 }
