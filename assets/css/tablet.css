@@ -1,6 +1,52 @@
-#main {
-  margin-left: 8rem;
+/* #main {
   padding: 1.6rem;
-  background-color: var(--portage);
-  font-size: 1.6rem;
+} */
+.main-imgContainer {
+  object-fit: cover;
+  object-position: 100% 0%;
+}
+.carousel-item1,
+.carousel-item2 {
+  height: auto;
+}
+/* .carousel-item__img {
+  object-position: 100% 60%;
+} */
+
+.dots0,
+.dots1 {
+  display: none;
+}
+/* Thumbnail under carousel */
+.rail {
+  display: contents;
+}
+.rail:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Image uses 100% of its container */
+.thumbnail0 img,
+.thumbnail1 img {
+  width: 100%;
+}
+/* Six columns side by side */
+.thumbnail0 {
+  float: left;
+  width: 14.2%;
+}
+.thumbnail1 {
+  float: left;
+  width: 7.69%;
+}
+/* Add a transparency effect for thumnbail images */
+.demo0,
+.demo1 {
+  opacity: 0.6;
+}
+.active,
+.demo0:hover,
+.demo1:hover {
+  opacity: 1;
 }
