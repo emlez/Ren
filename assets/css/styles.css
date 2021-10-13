@@ -39,7 +39,8 @@ body {
 
 /* === Header === */
 .header {
-  top: 0;
+  padding: 1rem;
+  /* top: 0; */
   height: 5rem;
   width: 100vw;
   justify-content: center;
@@ -47,24 +48,75 @@ body {
   color: var(--text);
   background-color: var(--free-blue);
 }
+.header a {
+  text-decoration: none;
+  color: var(--text);
+}
 .navbar {
-  /* position: sticky;
-  z-index: 1; */
   width: 80vw;
   justify-content: flex-end;
   height: 10vh;
 }
 .navbar .navbar-links {
-  display: none;
   list-style: none;
   text-decoration: none;
 }
-.navbar button {
-  border: none;
-  background-color: transparent;
+.navbar i {
   padding-left: 1rem;
   font-size: 2rem;
   color: var(--text);
+}
+.navbar-links {
+  align-items: center;
+  text-align: right;
+  transition: 350ms all;
+  padding-right: 1.2rem;
+}
+
+.navbar-links:hover,
+.navbar-links:active {
+  margin: 2rem 0 0 1rem;
+  align-self: flex-start;
+  background-color: var(--cerulan);
+  border: none;
+  border-radius: 8px;
+  color: #03091e;
+  cursor: pointer;
+  font-size: 1.6rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.6rem;
+  z-index: 1;
+}
+.navbar-links:hover i {
+  display: none;
+}
+
+.navbar-linksButton {
+  align-items: center;
+  display: flex;
+}
+
+.navbar-links ul {
+  display: none;
+  list-style: none;
+}
+
+.navbar-links:hover ul,
+ul:hover {
+  display: block;
+}
+
+.navbar-links li {
+  margin: 1rem 0 1.5rem 0;
+}
+
+.navbar-links li a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.navbar-links li a:hover {
+  text-decoration: underline;
 }
 
 /* === Main === */

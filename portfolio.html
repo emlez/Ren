@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/tablet.css"
+      media="(min-width: 768px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/desktop.css"
+      media="(min-width: 1024px)"
+    />
+    <script
+      src="https://kit.fontawesome.com/132c7af7e3.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portafolio</title>
+  </head>
+  <body>
+    <header class="header center">
+      <a href="./index.html">
+        <i class="fab fa-replyd fa-2x"></i>
+      </a>
+      <nav class="navbar center">
+        <i class="fas fa-moon theme"></i>
+        <div class="navbar-links">
+          <i class="fas fa-bars navbar-linksButton"></i>
+          <ul>
+            <li>📷 Menú</li>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./portfolio.html">Portafolio</a></li>
+            <li><a href="./form.html">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="cartel" class="carousel1">
+        <h2>🌃 Cartel</h2>
+        <div class="carousel__container">
+          <div class="carousel-item1 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/02Kkyxr4/tipografia.jpg"
+              alt="Tipografía"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Tipografía</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item1 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/P5md14Wz/bienal-final.png"
+              alt="Bienal de ilustración"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Bienal de ilustración</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item1 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/sxq34HHK/cine-de-oro.jpg"
+              alt="Cine de Oro"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Cine de Oro</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item1 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/Y0GH0f2F/Feminismo.png"
+              alt="Feminismo"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Feminismo</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item1 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/8k0kGskW/lucha-libre.jpg"
+              alt="Lucha Libre"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Lucha Libre</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item1 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/ZnGhdB0M/Regeneracion.jpg"
+              alt="Regeneración"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Regeneración</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item1 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/TwHxTHxG/codice.jpg"
+              alt="Códice"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Códice</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <i class="fas fa-angle-left prev0" onclick="plusSlides(-1, 0)"></i>
+          <i class="fas fa-angle-right next0" onclick="plusSlides(1, 0)"></i>
+        </div>
+        <div class="rail">
+          <div class="thumbnail0">
+            <img
+              src="https://i.postimg.cc/02Kkyxr4/tipografia.jpg"
+              alt="Tipografía Thumbnail"
+              class="demo0"
+              onclick="currentSlide(1, 0)"
+            />
+          </div>
+          <div class="thumbnail0">
+            <img
+              src="https://i.postimg.cc/P5md14Wz/bienal-final.png"
+              alt="Bienal Thumbnail"
+              class="demo0"
+              onclick="currentSlide(2, 0)"
+            />
+          </div>
+          <div class="thumbnail0">
+            <img
+              src="https://i.postimg.cc/sxq34HHK/cine-de-oro.jpg"
+              alt="Cine de Oro Thumbnail"
+              class="demo0"
+              onclick="currentSlide(3, 0)"
+            />
+          </div>
+          <div class="thumbnail0">
+            <img
+              src="https://i.postimg.cc/Y0GH0f2F/Feminismo.png"
+              alt="Feminismo Thumbnail"
+              class="demo0"
+              onclick="currentSlide(4, 0)"
+            />
+          </div>
+          <div class="thumbnail0">
+            <img
+              src="https://i.postimg.cc/8k0kGskW/lucha-libre.jpg"
+              alt="Lucha Libre Thumbnail"
+              class="demo0"
+              onclick="currentSlide(5, 0)"
+            />
+          </div>
+          <div class="thumbnail0">
+            <img
+              src="https://i.postimg.cc/ZnGhdB0M/Regeneracion.jpg"
+              alt="Regeneración Thumbnail"
+              class="demo0"
+              onclick="currentSlide(6, 0)"
+            />
+          </div>
+          <div class="thumbnail0">
+            <img
+              src="https://i.postimg.cc/TwHxTHxG/codice.jpg"
+              alt="Códice Thumbnail"
+              class="demo0"
+              onclick="currentSlide(7, 0)"
+            />
+          </div>
+        </div>
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+          <i class="fas fa-circle dots0" onclick="currentSlide(1, 0)"></i>
+          <i class="fas fa-circle dots0" onclick="currentSlide(2, 0)"></i>
+          <i class="fas fa-circle dots0" onclick="currentSlide(3, 0)"></i>
+          <i class="fas fa-circle dots0" onclick="currentSlide(4, 0)"></i>
+          <i class="fas fa-circle dots0" onclick="currentSlide(5, 0)"></i>
+          <i class="fas fa-circle dots0" onclick="currentSlide(6, 0)"></i>
+          <i class="fas fa-circle dots0" onclick="currentSlide(7, 0)"></i>
+        </div>
+      </section>
+      <section id="photo" class="carousel2">
+        <h2>📸 Fotografía</h2>
+        <div class="carousel__container">
+          <div class="carousel-item2 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/GtcXSbVm/IMG-0255.jpg"
+              alt="Juego de luces Pt. 1"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Juego de luces Pt. 1</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item2 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/fyBBG6Qj/IMG-0265.jpg"
+              alt="Juego de luces Pt. 2"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Juego de luces Pt. 2</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item2 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/02VBFJ8R/IMG-0252.jpg"
+              alt="Juego de luces Pt. 3"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Juego de luces Pt. 3</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item2 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/RhkNZ0mM/clones.jpg"
+              alt="Clones"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Clones</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item2 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/K8KJWqqB/IMG-0113.jpg"
+              alt="Caída"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Caída</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item2 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/L8Z3Dq5V/IMG-0128.jpg"
+              alt="Pose"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Pose</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item2 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/W3V8h22w/IMG-0132.jpg"
+              alt="Tamaños"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Tamaños</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item2 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/LstBdrzY/IMG-9570.jpg"
+              alt="Siembra"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Siembra</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item2 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/BvK7jY24/IMG-9562.jpg"
+              alt="Retoño"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Retoño</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item2 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/FRhbhDZP/IMG-9574.jpg"
+              alt="Raíces"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Raíces</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item2 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/ZRj8npsJ/IMG-9579.jpg"
+              alt="Crecer"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Crecer</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item2 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/PJR1zhkc/IMG-9583.jpg"
+              alt="Cosecha"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Cosecha</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <div class="carousel-item2 fade">
+            <img
+              class="carousel-item__img"
+              src="https://i.postimg.cc/Bbk1PgTf/Catalogo-compositivo.png"
+              alt="Catálogo Compositivo"
+            />
+            <div class="carousel-item__details">
+              <p class="carousel-item__details--title">Catálogo Compositivo</p>
+              <i class="fas fa-expand"></i>
+            </div>
+          </div>
+          <i class="fas fa-angle-left prev1" onclick="plusSlides(-1, 1)"></i>
+          <i class="fas fa-angle-right next1" onclick="plusSlides(1, 1)"></i>
+        </div>
+        <div class="rail">
+          <div class="thumbnail1">
+            <img
+              src="https://i.postimg.cc/GtcXSbVm/IMG-0255.jpg"
+              alt="Juego de luces Pt. 1 Thumbnail"
+              class="demo1"
+              onclick="currentSlide(1,1)"
+            />
+          </div>
+          <div class="thumbnail1">
+            <img
+              src="https://i.postimg.cc/fyBBG6Qj/IMG-0265.jpg"
+              alt="Juego de luces Pt. 2 Thumbnail"
+              class="demo1"
+              onclick="currentSlide(2,1)"
+            />
+          </div>
+          <div class="thumbnail1">
+            <img
+              src="https://i.postimg.cc/02VBFJ8R/IMG-0252.jpg"
+              alt="Juego de luces Pt. 3 Thumbnail"
+              class="demo1"
+              onclick="currentSlide(3,1)"
+            />
+          </div>
+          <div class="thumbnail1">
+            <img
+              src="https://i.postimg.cc/RhkNZ0mM/clones.jpg"
+              alt="Clones Thumbnail"
+              class="demo1"
+              onclick="currentSlide(4,1)"
+            />
+          </div>
+          <div class="thumbnail1">
+            <img
+              src="https://i.postimg.cc/K8KJWqqB/IMG-0113.jpg"
+              alt="Caída Thumbnail"
+              class="demo1"
+              onclick="currentSlide(5,1)"
+            />
+          </div>
+          <div class="thumbnail1">
+            <img
+              src="https://i.postimg.cc/L8Z3Dq5V/IMG-0128.jpg"
+              alt="Pose Thumbnail"
+              class="demo1"
+              onclick="currentSlide(6,1)"
+            />
+          </div>
+          <div class="thumbnail1">
+            <img
+              src="https://i.postimg.cc/W3V8h22w/IMG-0132.jpg"
+              alt="Tamaños Thumbnail"
+              class="demo1"
+              onclick="currentSlide(7,1)"
+            />
+          </div>
+          <div class="thumbnail1">
+            <img
+              src="https://i.postimg.cc/LstBdrzY/IMG-9570.jpg"
+              alt="Siembra Thumbnail"
+              class="demo1"
+              onclick="currentSlide(8,1)"
+            />
+          </div>
+          <div class="thumbnail1">
+            <img
+              src="https://i.postimg.cc/BvK7jY24/IMG-9562.jpg"
+              alt="Retoño Thumbnail"
+              class="demo1"
+              onclick="currentSlide(9,1)"
+            />
+          </div>
+          <div class="thumbnail1">
+            <img
+              src="https://i.postimg.cc/FRhbhDZP/IMG-9574.jpg"
+              alt="Raíces Thumbnail"
+              class="demo1"
+              onclick="currentSlide(10,1)"
+            />
+          </div>
+          <div class="thumbnail1">
+            <img
+              src="https://i.postimg.cc/ZRj8npsJ/IMG-9579.jpg"
+              alt="Crecer Thumbnail"
+              class="demo1"
+              onclick="currentSlide(11,1)"
+            />
+          </div>
+          <div class="thumbnail1">
+            <img
+              src="https://i.postimg.cc/PJR1zhkc/IMG-9583.jpg"
+              alt="Cosecha Thumbnail"
+              class="demo1"
+              onclick="currentSlide(12,1)"
+            />
+          </div>
+          <div class="thumbnail1">
+            <img
+              src="https://i.postimg.cc/Bbk1PgTf/Catalogo-compositivo.png"
+              alt="Catálogo Compositivo Thumbnail"
+              class="demo1"
+              onclick="currentSlide(13,1)"
+            />
+          </div>
+        </div>
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+          <i class="fas fa-circle dots1" onclick="currentSlide(1,1)"></i>
+          <i class="fas fa-circle dots1" onclick="currentSlide(2,1)"></i>
+          <i class="fas fa-circle dots1" onclick="currentSlide(3,1)"></i>
+          <i class="fas fa-circle dots1" onclick="currentSlide(4,1)"></i>
+          <i class="fas fa-circle dots1" onclick="currentSlide(5,1)"></i>
+          <i class="fas fa-circle dots1" onclick="currentSlide(6,1)"></i>
+          <i class="fas fa-circle dots1" onclick="currentSlide(7,1)"></i>
+          <i class="fas fa-circle dots1" onclick="currentSlide(8,1)"></i>
+          <i class="fas fa-circle dots1" onclick="currentSlide(9,1)"></i>
+          <i class="fas fa-circle dots1" onclick="currentSlide(10,1)"></i>
+          <i class="fas fa-circle dots1" onclick="currentSlide(11,1)"></i>
+          <i class="fas fa-circle dots1" onclick="currentSlide(12,1)"></i>
+          <i class="fas fa-circle dots1" onclick="currentSlide(13,1)"></i>
+        </div>
+      </section>
+    </main>
+    <footer class="footer center">
+      <p>Código fuente</p>
+      <p>
+        Hecho con
+        <i class="fas fa-heart"></i>
+      </p>
+      <div class="social center">
+        <i class="fab fa-instagram fa-lg"></i>
+        <i class="fab fa-500px fa-lg"></i>
+        <i class="fab fa-github-alt fa-lg"></i>
+      </div>
+    </footer>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

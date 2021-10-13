@@ -2,8 +2,10 @@
   padding: 1.6rem;
 } */
 .main-imgContainer {
-  object-fit: cover;
-  object-position: 100% 0%;
+  /* height: 300px;
+  object-fit: none;
+  object-position: 100% 500%; */
+  background-position: calc(80%);
 }
 .carousel-item1,
 .carousel-item2 {

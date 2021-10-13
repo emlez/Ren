@@ -1,13 +1,3 @@
-// Hamburger menu
-function menu() {
-  var menu = document.getElementById("navbarLinks");
-  if (menu.className === "navbarLinks") {
-    menu.className += " responsive";
-  } else {
-    menu.className = "navbarLinks";
-  }
-}
-
 // Carousel
 let slideIndex = [1, 1];
 let slideId = ["carousel-item1", "carousel-item2"];
