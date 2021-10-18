@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+body {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation-name: disco;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+img {
+  width: 20rem;
+}
+#volume {
+  font-size: 40px;
+  margin-top: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+@keyframes disco {
+  0% {
+    background: #ff7c7c;
+  }
+
+  20% {
+    background: #7c9bff;
+  }
+
+  30% {
+    background: #7cffd3;
+  }
+
+  40% {
+    background: #ff7cae;
+  }
+
+  50% {
+    background: #fff67c;
+  }
+
+  60% {
+    background: #7cff82;
+  }
+
+  70% {
+    background: #7c9bff;
+  }
+
+  80% {
+    background: #ffc67c;
+  }
+
+  90% {
+    background: #7c89ff;
+  }
+
+  100% {
+    background: #7ccbff;
+  }
+}
