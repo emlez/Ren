@@ -117,7 +117,7 @@ ul:hover {
   min-width: 320px;
   height: 50vh;
   background: url("https://i.postimg.cc/63nR6yjz/main-photo.jpg");
-  background-position: center;
+  background-position: 100% 70%;
   background-size: cover;
   background-repeat: no-repeat;
 }
