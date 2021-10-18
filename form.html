@@ -49,8 +49,25 @@
     </header>
     <main>
       <section>
-        <h2>Contacto</h2>
-        <p></p>
+        <h1>Contacto</h1>
+        <p>Si vienes a Cuernavaca en algún momento, no dudes en buscarme:</p>
+        <div id="googleMap" style="width: 100%; height: 400px"></div>
+        <script>
+          function myMap() {
+            var mapProp = {
+              center: new google.maps.LatLng(
+                18.925560166914003,
+                -99.23550168061634
+              ),
+              zoom: 5,
+            };
+            var map = new google.maps.Map(
+              document.getElementById("googleMap"),
+              mapProp
+            );
+          }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG4A13IRhH7u1PLOyR-p3bLxn1ua6g2aw&callback=myMap"></script>
       </section>
       <script
         type="text/javascript"
@@ -58,17 +75,14 @@
       ></script>
     </main>
     <footer class="footer center">
-      <a href="https://github.com/emlez/Ren">
-        <p>Código fuente</p>
-      </a>
       <p>
         Hecho con
         <i class="fas fa-heart"></i>
       </p>
       <div class="social center">
-        <i class="fab fa-instagram fa-lg"></i>
-        <i class="fab fa-500px fa-lg"></i>
-        <i class="fab fa-github-alt fa-lg"></i>
+        <a href="https://www.instagram.com/ren_rmm/">
+          <i class="fab fa-instagram fa-lg"></i>
+        </a>
       </div>
     </footer>
   </body>
