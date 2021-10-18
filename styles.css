@@ -270,13 +270,13 @@ h2 {
 
 /* === Footer === */
 footer {
-  /* position: absolute;
-  bottom: 0; */
-  justify-content: space-evenly;
+  flex-direction: column;
   color: var(--free-blue);
+  font-size: 1.6rem;
 }
 
 footer .social {
   width: 8rem;
+  margin-top: 1rem;
   justify-content: space-evenly;
 }
