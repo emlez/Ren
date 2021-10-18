@@ -112,20 +112,21 @@ ul:hover {
 }
 
 /* === Main === */
-#main {
+/* main {
   height: auto;
-}
+} */
 .main-imgContainer {
   width: 100%;
   min-width: 320px;
   height: 50vh;
-  background: url("https://i.postimg.cc/63nR6yjz/main-photo.jpg") center/cover
-    no-repeat;
-  opacity: 0.9;
+  background: url("https://i.postimg.cc/63nR6yjz/main-photo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .main-imgContainer h1 {
-  padding-top: 60px;
-  font-size: 4.1rem;
+  padding-top: 5rem;
+  /* font-size: 4.1rem; */
   font-weight: 700;
   color: var(--free-blue);
   text-align: center;
@@ -156,7 +157,6 @@ h2 {
 }
 .carousel-item__img {
   width: 100%;
-  /* height: 100%; */
   height: auto;
   object-fit: cover;
   object-position: 50% 50%;

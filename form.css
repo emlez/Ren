@@ -1,0 +1,10 @@
+h1 {
+  font-size: 4.2rem;
+  color: var(--free-blue);
+}
+p {
+  color: var(--vulcan);
+}
+#googleMap {
+  margin: 1rem 0;
+}

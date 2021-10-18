@@ -12,6 +12,7 @@
     />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="./form.css" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -36,7 +37,7 @@
         <i class="fab fa-replyd fa-2x"></i>
       </a>
       <nav class="navbar center">
-        <i class="fas fa-moon theme"></i>
+        <!-- <i class="fas fa-moon theme"></i> -->
         <div class="navbar-links">
           <i class="fas fa-bars navbar-linksButton"></i>
           <ul>
@@ -49,8 +50,10 @@
     </header>
     <main>
       <section>
-        <h1>Contacto</h1>
-        <p>Si vienes a Cuernavaca en algún momento, no dudes en buscarme:</p>
+        <h1 style="text-align: center">Contacto</h1>
+        <p style="text-align: center">
+          Si vienes a Cuernavaca en algún momento, no dudes en buscarme:
+        </p>
         <div id="googleMap" style="width: 100%; height: 400px"></div>
         <script>
           function myMap() {
@@ -59,7 +62,7 @@
                 18.925560166914003,
                 -99.23550168061634
               ),
-              zoom: 5,
+              zoom: 12,
             };
             var map = new google.maps.Map(
               document.getElementById("googleMap"),

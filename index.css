@@ -1,0 +1,24 @@
+ul {
+  margin: 0 2rem;
+  list-style: circle;
+}
+h3 {
+  font-size: 2.2rem;
+  color: var(--free-blue);
+}
+.main-text,
+.main-videos {
+  margin: 2rem 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.graphiDesign-list {
+  text-align: left;
+}
+.main-imgContainer {
+  cursor: pointer;
+}
+iframe {
+  margin: 1rem 0;
+}
